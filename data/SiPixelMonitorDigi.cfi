@@ -1,4 +1,5 @@
 module SiPixelDigiSource = SiPixelDigiSource { 
 	InputTag src = siPixelDigis
 	string outputFile = "Pixel_DQM_Digi.root"
+	untracked bool saveFile = false
 }
