@@ -1,7 +1,7 @@
 module SiPixelDigiSource = SiPixelDigiSource { 
 	InputTag src = siPixelDigis
 	string outputFile = "Pixel_DQM_Digi.root"
-	untracked bool saveFile = true
-        // should histograms on module level be booked and filled?
-        bool Mod_On = true
+	untracked bool saveFile = false
+	untracked bool isPIB = false
+	untracked bool slowDown = false
 }
